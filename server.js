@@ -1,3 +1,8 @@
-import falaOi from "./app";
+import app from './app';
 
-falaOi()
+
+app.listen(3000, () => {
+  console.log('-----------');
+  console.log('rodando... ');
+  console.log('-----------');
+});
