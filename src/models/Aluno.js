@@ -11,7 +11,7 @@ export default class Aluno extends Model{
       altura: Sequelize.FLOAT,
     }, {
       sequelize,
-    })
-    return this
+    });
+    return this;
   }
 }
